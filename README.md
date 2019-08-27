@@ -33,7 +33,7 @@ npm i -g heroku
 heroku login
 ```
 
-Check all are prerequisites are good and well:
+Check all our prerequisites are good and well:
 ```
 git --version
 node --version
@@ -52,7 +52,7 @@ git clone https://github.com/osaisacson/the-boilerplate.git
 ...this will create an 'the-boilerplate' folder with latest code.
 
 
-2. Initialize git.
+2. Initialize git
 
 ```
 cd the-boilerplate
@@ -79,10 +79,11 @@ heroku open
 Make changes, then:
 ```
 git add .
-git commit -m "first commit"
-git push heroku master
+git commit -m "commit message"
+git push (this pushes to the repo on git)
+git push heroku master (this deploys)
 ```
-...check that they show up here: 
+...check that the changes show up here: 
 git repo https://github.com/osaisacson/the-boilerplate 
 heroku https://the-boilerplate.herokuapp.com/
 
