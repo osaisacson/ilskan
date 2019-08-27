@@ -75,18 +75,18 @@ heroku open
 ...the browser address (https://ilskan.herokuapp.com/) is the live version of the app.
 
 
-5. Make changes and check that they show up here: 
-git repo https://github.com/osaisacson/ilskan 
-heroku https://ilskan.herokuapp.com/
-
-Make a change, then:
+5. Work on project.
+Make changes, then:
 ```
 git add .
 git commit -m "first commit"
 git push heroku master
 ```
+...check that they show up here: 
+git repo https://github.com/osaisacson/the-boilerplate 
+heroku https://the-boilerplate.herokuapp.com/
 
-Subsequently, repeating step 4 will do.
+Subsequently, repeating step 5 will do.
 
 
 ## Useful commands
@@ -109,11 +109,11 @@ You can use the git remote command to confirm that a remote named heroku has bee
 git remote -v
 ```
 
-NOTE: Below is only if you're setting up a completely new project. The ilskan project already has a heroku address so no need for this here. Just for context:
+NOTE: Below is only if you're setting up a completely new project. The boilerplate project already has a heroku address so no need for this here. Just for context:
 
 how to link with heroku and create a new heroku address:
 ```
-heroku create -b https://github.com/osaisacson/ilskan.git
+heroku create -b https://github.com/osaisacson/the-boilerplate.git
 ```
 ...this will give you the address of the running heroku instance.
 
