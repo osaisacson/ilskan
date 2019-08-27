@@ -75,7 +75,14 @@ heroku open
 ...the browser address (https://the-boilerplate.herokuapp.com/) is the live version of the app.
 
 
-5. Work on project.
+5. Start local
+```
+npm run dev
+```
+...see the changes continously update on localhost:3000
+
+
+6. Save changes
 Make changes, then:
 ```
 git add .
@@ -86,8 +93,6 @@ git push heroku master (this deploys)
 ...check that the changes show up here: 
 git repo https://github.com/osaisacson/the-boilerplate 
 heroku https://the-boilerplate.herokuapp.com/
-
-Subsequently, repeating step 5 will do.
 
 
 ## Useful commands
