@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={user.user.avatar_url} className="App-logo" alt="logo" />
-        <p>Test API: {user.user.login}</p>
+        <p>Test API (should show name): {user.user.login}</p>
         <p>This boilerplate is setup with React.js, Node.js, SASS & deploys on Heroku.</p>
         <a
           className="App-link"
