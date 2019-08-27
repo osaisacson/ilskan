@@ -72,7 +72,7 @@ npm install
 ```
 heroku open
 ```
-...the browser address (https://ilskan.herokuapp.com/) is the live version of the app.
+...the browser address (https://the-boilerplate.herokuapp.com/) is the live version of the app.
 
 
 5. Work on project.
