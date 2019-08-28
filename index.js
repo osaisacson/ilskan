@@ -6,6 +6,7 @@ const app = express()
 
 app.use(cors());
 
+//api call to github, getting info from a specific user
 app.get('/api', (req, res) => {
   const user = req.query.user || "osaisacson";
   axios.get(`http://api.github.com/users/${user}`)
